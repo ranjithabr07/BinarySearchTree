@@ -1,4 +1,5 @@
-﻿using BinarySearchTree;
+﻿
+using BinarySearchTree;
 
 Console.WriteLine("Welcome To Binary Search Tree Problem");
 BinarySearchTree<int> BinaryTree = new BinarySearchTree<int>();
@@ -16,3 +17,6 @@ BinaryTree.AddNode(33);
 BinaryTree.AddNode(16);
 BinaryTree.AddNode(63);
 BinaryTree.AddNode(67);
+
+int Size = BinaryTree.GetSize();
+Console.WriteLine("Size is:" + Size);
